@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GlobalLogic</string>
+    <string name="image_description">Default Image</string>
+
+    <!--Botones-->
+    <string name="btn_ok">OK</string>
+
+    <!--Error-->
+    <string name="alert_title">Ups</string>
+    <string name="alert_description">Check your internet connection and retry!</string>
+    <string name="alert_fail">There was a problem with the system connection.</string>
 </resources>
