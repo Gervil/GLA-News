@@ -165,10 +165,12 @@ public class CloudConnect {
                     String title = featureItem.getString("title");
                     String description = featureItem.getString("description");
 
-                    data = new NewsData(image
-                            , title
-                            , description);
-                    datas.add(data);
+                    if (!image.isEmpty() && !title.isEmpty() && !description.isEmpty()) {
+                        data = new NewsData(image
+                                , title
+                                , description);
+                        datas.add(data);
+                    }
                 }
             }
         } catch (JSONException e) {
